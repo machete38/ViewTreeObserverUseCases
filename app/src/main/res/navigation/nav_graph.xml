@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viewMeasurementFragment">
+
+    <fragment
+        android:id="@+id/viewMeasurementFragment"
+        android:name="com.example.viewtreeobserverusecases.fragments.ViewMeasurementFragment"
+        android:label="@string/measure"
+        tools:layout="@layout/fragment_view_measurement" />
+
+    <fragment
+        android:id="@+id/hierarchyChangeFragment"
+        android:name="com.example.viewtreeobserverusecases.fragments.HierarchyChangeFragment"
+        android:label="@string/hierarchy"
+        tools:layout="@layout/fragment_hierarchy_change" />
+
+    <fragment
+        android:id="@+id/scrollTrackingFragment"
+        android:name="com.example.viewtreeobserverusecases.fragments.ScrollTrackingFragment"
+        android:label="@string/scroll"
+        tools:layout="@layout/fragment_scroll_tracking" />
+
+    <fragment
+        android:id="@+id/visibilityTrackingFragment"
+        android:name="com.example.viewtreeobserverusecases.fragments.VisibilityTrackingFragment"
+        android:label="@string/visibility"
+        tools:layout="@layout/fragment_visibility_tracking" />
+
+    <fragment
+        android:id="@+id/focusChangeFragment"
+        android:name="com.example.viewtreeobserverusecases.fragments.FocusChangeFragment"
+        android:label="@string/focus"
+        tools:layout="@layout/fragment_focus_change" />
+
+
+
+</navigation>

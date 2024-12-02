@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ViewTreeObserverUseCases</string>
+    <string name="measure">Measure</string>
+    <string name="hierarchy">Hierarchy</string>
+    <string name="scroll">Scroll</string>
+    <string name="visibility">Visibility</string>
+    <string name="focus">Focus</string>
+    <string name="window">Window</string>
+</resources>
